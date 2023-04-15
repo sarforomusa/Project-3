@@ -1,0 +1,13 @@
+vpc_cidr_block="10.0.0.0/16"
+web_pub_sub1_cidr="10.0.10.0/24"
+web_pub_sub2_cidr="10.0.11.0/24"
+app_priv_sub1_cidr="10.0.12.0/24"
+app_priv_sub2_cidr="10.0.13.0/24"
+pub_ami="ami-0cd8ad123effa531a"
+pub_instance_type="t2.micro"
+pub_count=2
+priv_ami="ami-0cd8ad123effa531a"
+priv_instance_type="t2.micro"
+priv_count=2
+db_username="admin"
+db_password="admin1234"
